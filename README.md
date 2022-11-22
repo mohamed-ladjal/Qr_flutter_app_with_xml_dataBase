@@ -1,16 +1,24 @@
-# mini_project_xml
+#Qr_flutter_app_with_xml_dataBase
 
-A new Flutter project.
 
-## Getting Started
+NOTE:
+IN ORDER FOR THE APP TO WORK PROPERLY, YOU NEED TO USE THE SCANNER WITH MY  GENERATED QR CODE IN THE FILE /images/qr/
 
-This project is a starting point for a Flutter application.
+SEE BELLOW FOR MORE DETAILS
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![316312651_1367797493961830_4907080402489578174_n](https://user-images.githubusercontent.com/76242620/203384844-ee85bbe6-da18-4266-b6ed-5a2ef0734595.jpg) 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+![315350140_446234607647458_2687135081932474930_n](https://user-images.githubusercontent.com/76242620/203384882-308347f9-882a-493e-9925-7a4598b23464.jpg)
+
+
+
+![316397928_1728821144156688_225265145874692515_n](https://user-images.githubusercontent.com/76242620/203384901-a8fbb679-acc0-4436-8941-b5d7edcc5a21.jpg)
+
+
+The problem above is because of that my own qr code  consists of five lines so the scan.dart class  after scanning the code  navigate to the form.dart page and write immediately 5 line of my qr code result in the 5 textField in the form.dart page in the same order, So it may throw some errors if the result was less or grater than five lines (However, you can change that with your specific qr code or general scanning)
+
+trim five lines of the result and pass theme as a Parameters to the form page(the result need to consists of five lines or it will throw error)
+
+![scan_push](https://user-images.githubusercontent.com/76242620/203383961-329fcc22-cdae-43c7-9e62-7635e86207a5.png)
