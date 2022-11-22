@@ -17,8 +17,8 @@ SEE BELLOW FOR MORE DETAILS
 
 
 
-The problem above is because of that my own qr code  consists of five lines so the scan.dart class  after scanning the code  navigate to the form.dart page and write immediately 5 line of my qr code result in the 5 textField in the form.dart page in the same order, So it may throw some errors if the result was less or grater than five lines (However, you can change that with your specific qr code or general scanning)
+The problem above is because of that my own qr code  consists of five lines so the scan.dart class  after scanning the code  navigate to the form.dart page and write immediately 6 line of my qr code result in the 5 textField in the form.dart page in the same order, So it may throw some errors if the result was less or grater than six lines (However, you can change that with your specific qr code or general scanning)
 
-trim five lines of the result and pass theme as a Parameters to the form page(the result need to consists of five lines or it will throw error)
+trim five lines of the result and pass theme as a Parameters to the form page(the result need to consists of siz lines or it will throw error)
 
 ![scan_push](https://user-images.githubusercontent.com/76242620/203383961-329fcc22-cdae-43c7-9e62-7635e86207a5.png)
